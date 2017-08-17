@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    scale 放大缩小与拉伸效果
+    fromXScale 起始X轴的尺寸
+    fromYScale 起始Y轴的尺寸
+    toXScale 结束X轴的尺寸
+    toYScale 结束Y轴的尺寸
+    pivotX 缩放的中心点X轴的位置
+    pivotY 缩放的中心点Y轴的位置
+-->
+<scale xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fromXScale="0.5"
+    android:fromYScale="1"
+    android:toXScale="2"
+    android:toYScale="1"
+    android:duration="3000"/>

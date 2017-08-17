@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    alpha 透明度
+    0.0完全透明 1.0完全不透明
+
+    fromAlpha 起始时的透明度
+    toAlpha 结束时的透明度
+    duration 从起始到结束的持续时间 1000（1秒）
+    repeatCount 动画重复的次数（-1无限循环） 1表示执行两次
+    repeatMode 动画的重复模式：reverse逆序开始 restart重新开始
+    fillAfter 保留动画结束后的效果
+    fillBefore 动画结束后回到动画的初始状态
+    startOffset 动画延迟执行时间
+-->
+<alpha xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fromAlpha="0.0"
+    android:toAlpha="1.0"
+    android:duration="3000"/>

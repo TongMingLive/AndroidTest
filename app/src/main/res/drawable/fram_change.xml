@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/baoa"
+        android:duration="100"/>
+    <item android:drawable="@drawable/baob"
+        android:duration="100"/>
+    <item android:drawable="@drawable/baoc"
+        android:duration="100"/>
+    <item android:drawable="@drawable/baod"
+        android:duration="100"/>
+    <item android:drawable="@drawable/baoe"
+        android:duration="100"/>
+</animation-list>

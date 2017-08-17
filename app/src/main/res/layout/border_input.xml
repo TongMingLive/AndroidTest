@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:background="@drawable/blue_border"
+        android:paddingRight="10dp"
+        android:layout_margin="30dp"
+        android:id="@+id/grop_input">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="账号："
+            android:textSize="20sp"
+            android:id="@+id/inputText"
+            android:gravity="center"
+            android:background="#0af"
+            android:textColor="#fff"
+            android:paddingLeft="10dp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="请输入账号"
+            android:layout_toRightOf="@id/inputText"
+            android:layout_centerVertical="true"
+            android:textCursorDrawable="@null"
+            android:background="@null"
+            android:paddingLeft="5dp"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_below="@+id/grop_input"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:background="@drawable/blue_border"
+        android:paddingRight="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:id="@+id/grop_psw">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="密码："
+            android:textSize="20sp"
+            android:id="@+id/inputPsw"
+            android:gravity="center"
+            android:background="#0af"
+            android:textColor="#fff"
+            android:paddingLeft="10dp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:password="true"
+            android:hint="请输入密码"
+            android:layout_toRightOf="@id/inputPsw"
+            android:layout_centerVertical="true"
+            android:textCursorDrawable="@null"
+            android:background="@null"
+            android:paddingLeft="5dp"/>
+    </RelativeLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="30dp"
+        android:text="登 录"
+        android:layout_below="@id/grop_psw"
+        android:layout_alignParentRight="true"
+        android:background="#0af"
+        android:textColor="#fff"
+        android:textSize="18sp"
+        android:id="@+id/login_button"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/buttom_border">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="主页"
+            android:textSize="20sp"
+            android:gravity="center"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="朋友"
+            android:textSize="20sp"
+            android:gravity="center"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="发现"
+            android:textSize="20sp"
+            android:gravity="center"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="我的"
+            android:textSize="20sp"
+            android:gravity="center"/>
+    </LinearLayout>
+
+</RelativeLayout>
